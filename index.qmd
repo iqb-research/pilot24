@@ -1,0 +1,93 @@
+---
+title: "Testleitungsinformationen"
+---
+
+Auf dieser Seite finden Sie als Erhebungsleiter\*innen Updates für das Trouble-Shooting bei der IQB-Erprobungsstudie 2024.
+
+Die Punkte sind chronologisch und thematisch gegliedert.
+
+## Allgemeine Informationen
+
+## Trouble-Shooting
+
+### Vorbereitung
+
+### Während der Erhebung
+
+#### GeoGebra / geometrisches Zeichnen
+
+::: {.callout collapse="true"}
+### Das Testheft ist erfolgreich geladen, aber eine eingebettete GeoGebra-Datei wird nicht angezeigt.
+
+![Fehlerhafte GeoGebra-Anzeige (es wird etwas geladen, aber nicht angezeigt)](figures/ggb-load.jpg)
+
+- **Lösung 1:** Aufgabe überspringen und auf die nächste Aufgabe navigieren über den "Hier geht's weiter-Button". Anschließend über die obere Navigationsleiste erneut auf die vorherige Aufgabe gehen, die nicht geladen hat.
+- **Lösung 2:** Wenn Lösung 1 nicht hilft, dann IQB-Testcenter aus der Adressleiste neu aufrufen.
+  - Seite über Browserleiste aktualisieren bzw. Shortcut am PC: [Strg]{.key} + [R]{.key}
+  - **Achtung:** Nicht über das IQB-Logo gehen, weil ansonsten der Block unwiderruflich gesperrt würde.
+
+<ul class="tags">
+<li>GeoGebra</li>
+<li>Ladeprobleme</li>
+</ul>
+:::
+
+::: {.callout collapse="true"}
+### Beim Zeichnen in GeoGebra springt der zu bearbeitende Bereich unkontrolliert weg / scrollt ungewollt.
+
+- **Lösung 1:** Bitten Sie die Testperson, mehrere Anläufe zu unternehmen. Nach unseren Tests springt die Ansicht dann i. d. R. nicht mehr.
+- **Lösung 2:** Sollte das Problem auch nach mehreren Anläufen weiterhin bestehen, soll die Testperson die aktuelle Aufgabe überspringen und einfach mit der nächsten Aufgabe fortfahren. Bitte vermerken Sie den Teil, die Aufgabennummer (steht über der Aufgabe bzw. in der Navigationsleiste) und die Schüler-ID, bei welcher das Problem aufgetreten ist, im Testsitzungsprotokoll.
+
+<ul class="tags">
+<li>GeoGebra</li>
+<li>Ansicht</li>
+</ul>
+:::
+
+#### Tastatur
+
+::: {.callout collapse="true"}
+### Bei einzelnen Aufgaben öffnet sich am Tablet keine Tastatur / ist keine schriftliche Eingabe möglich / überdeckt die Tastatur das Eingabefeld.
+
+TODO: Screenshot
+
+Bitte vermerken Sie den Teil, die Aufgabennummer (steht über der Aufgabe bzw. in der Navigationsleiste) und die Schüler-ID, bei welcher das Problem aufgetreten ist, im Testsitzungsprotokoll.
+
+Die Testperson soll versuchen, die Aufgabe trotzdem so gut wie möglich zu bearbeiten.
+
+Wenn die Aufgabe gar nicht bearbeitbar sein sollte, soll die Testperson diese Aufgabe überspringen.
+
+<ul class="tags">
+<li>Tablet</li>
+<li>Tastatur</li>
+</ul>
+:::
+
+#### Audios und Videos
+
+::: {.callout collapse="true"}
+### Problem: Eine Audio- oder eine Video-Datei lädt nicht.
+
+- Wenn es sich um kein "Pflichtmedium" handelt (d. h. wenn man trotzdem zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): Lassen Sie die Teilaufgabe überspringen.
+- Wenn es sich um ein "Pflichtmedium" handelt (d. h. wenn man nicht zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): Nutzen Sie die [Testleitungskonsole](/monitor.qmd), um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe.
+
+<ul class="tags">
+<li>Audio</li>
+<li>Video</li>
+</ul>
+:::
+
+::: {.callout collapse="true"}
+### Die Anfänge der Audiodateien bzw. der Tonspur der Videos sind scheinbar abgeschnitten.
+
+Sofern ein **anderer Browser** auf dem Gerät **verfügbar** ist, beenden Sie die aktuelle Sitzung auf dem Browser (einfaches Schließen) und wechseln Sie auf einen anderen Browser. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
+
+Sofern ein **anderes Endgerät verfügbar** ist (also ein Ersatzgerät), beenden Sie die aktuelle Sitzung auf dem aktuellen Endgerät (einfaches Schließen) und wechseln Sie auf das andere Endgerät. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
+
+<ul class="tags">
+<li>Audio</li>
+<li>Video</li>
+</ul>
+:::
+
+### Nachbereitung

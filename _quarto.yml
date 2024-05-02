@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  reader-mode: true
+  back-to-top-navigation: true
+  page-footer: "Letztes Update 03.05.2024, IQB"
+  navbar:
+    title: "Erprobungsstudie 2024"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: monitor.qmd
+        text: Testleitungskonsole
+      - about.qmd
+  search:
+    location: navbar
+    type: textbox
+
+format:
+  # docx
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: true
+    lightbox: true
+
+lang: de
