@@ -15,7 +15,7 @@ Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht
 
     ![Auswählen der Person und Markieren des aktuellen Blocks](figures/trouble-solution-1-2.png){#fig-solution-1-2}
 
-    b. Klicken Sie auf den hellgrün gefärbten Block, in dem sich die Testperson gerade befindet (@fig-solution-1-2)
+    b. Klicken Sie auf den hellgrün gefärbten Block, in dem sich die Testperson gerade befindet (@fig-solution-1-2).
     c. Betätigen Sie die Schaltfläche „Springe zu Block“ (@fig-solution-3). Die Person wird somit wieder an den Anfang des Blocks geleitet.
 
     ![Betätigen der Schaltfläche](figures/trouble-solution-3.png){#fig-solution-3}
