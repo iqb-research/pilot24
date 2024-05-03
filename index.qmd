@@ -6,11 +6,11 @@ Auf dieser Seite finden Sie als Erhebungsleiter\*innen Updates für das Trouble-
 
 Die Punkte sind chronologisch und thematisch gegliedert.
 
-## Allgemeine Informationen
+<!-- ## Allgemeine Informationen -->
 
 ## Trouble-Shooting
 
-### Vorbereitung
+<!-- ### Vorbereitung -->
 
 ### Während der Erhebung
 
@@ -49,8 +49,6 @@ Die Punkte sind chronologisch und thematisch gegliedert.
 ::: {.callout collapse="true"}
 ### Bei einzelnen Aufgaben öffnet sich am Tablet keine Tastatur / ist keine schriftliche Eingabe möglich / überdeckt die Tastatur das Eingabefeld.
 
-TODO: Screenshot
-
 Bitte vermerken Sie den Teil, die Aufgabennummer (steht über der Aufgabe bzw. in der Navigationsleiste) und die Schüler-ID, bei welcher das Problem aufgetreten ist, im Testsitzungsprotokoll.
 
 Die Testperson soll versuchen, die Aufgabe trotzdem so gut wie möglich zu bearbeiten.
@@ -68,8 +66,18 @@ Wenn die Aufgabe gar nicht bearbeitbar sein sollte, soll die Testperson diese Au
 ::: {.callout collapse="true"}
 ### Problem: Eine Audio- oder eine Video-Datei lädt nicht.
 
+![Video lädt trotz Anklickens des Play-Buttons](figures/ggb-load.jpg)
+
 - Wenn es sich um kein "Pflichtmedium" handelt (d. h. wenn man trotzdem zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): Lassen Sie die Teilaufgabe überspringen.
-- Wenn es sich um ein "Pflichtmedium" handelt (d. h. wenn man nicht zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): Nutzen Sie die [Testleitungskonsole](/monitor.qmd), um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe.
+- Wenn es sich um ein "Pflichtmedium" handelt (d. h. wenn man nicht zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): 
+  - **Lösung 1:** Aktualisieren Sie die Seite über die Browserleiste bzw. über den Shortcut am PC: [Strg]{.key} + [R]{.key}. Prüfen Sie, ob das Medium nun abspielt. Wenn nicht, versuchen Sie Lösung 2.
+    - **Achtung:** Nicht über das IQB-Logo gehen, weil ansonsten der Block unwiderruflich gesperrt würde.
+  - **Lösung 2:** Kürzen Sie die Adressleiste auf https://iqb-testcenter2.de/ herunter (siehe @fig-browser-refresh) und laden Sie die Seite neu. Sie gelangen wieder auf die Seite mit der Auswahl der Testteile. Klicken Sie erneut auf die Schaltfläche für den entsprechenden Teil. Es sollte wieder dieselbe Aufgabe laden. Prüfen Sie, ob das Medium nun abspielt. Wenn nicht, versuchen Sie Lösung 3.
+
+![Einkürzen der Adresse auf https://iqb-testcenter2.de/](figures/browser-refresh.jpg){#fig-browser-refresh}
+
+
+  - **Lösung 3:** Nutzen Sie die [Testleitungskonsole](/monitor.qmd), um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe.
 
 <ul class="tags">
 <li>Audio</li>
@@ -80,9 +88,8 @@ Wenn die Aufgabe gar nicht bearbeitbar sein sollte, soll die Testperson diese Au
 ::: {.callout collapse="true"}
 ### Die Anfänge der Audiodateien bzw. der Tonspur der Videos sind scheinbar abgeschnitten.
 
-Sofern ein **anderer Browser** auf dem Gerät **verfügbar** ist, beenden Sie die aktuelle Sitzung auf dem Browser (einfaches Schließen) und wechseln Sie auf einen anderen Browser. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
-
-Sofern ein **anderes Endgerät verfügbar** ist (also ein Ersatzgerät), beenden Sie die aktuelle Sitzung auf dem aktuellen Endgerät (einfaches Schließen) und wechseln Sie auf das andere Endgerät. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
+- **Lösung 1:** Sofern ein **anderer Browser** auf dem Gerät **verfügbar** ist, beenden Sie die aktuelle Sitzung auf dem Browser (einfaches Schließen) und wechseln Sie auf einen anderen Browser. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
+- **Lösung 2:** Sofern ein **anderes Endgerät verfügbar** ist (also ein Ersatzgerät), beenden Sie die aktuelle Sitzung auf dem aktuellen Endgerät (einfaches Schließen) und wechseln Sie auf das andere Endgerät. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
 
 <ul class="tags">
 <li>Audio</li>
@@ -90,4 +97,4 @@ Sofern ein **anderes Endgerät verfügbar** ist (also ein Ersatzgerät), beenden
 </ul>
 :::
 
-### Nachbereitung
+<!-- ### Nachbereitung -->

@@ -21,6 +21,7 @@ website:
 format:
   # docx
   html:
+    toc-depth: 4
     theme:
       - cosmo
       - custom.scss
