@@ -2,36 +2,23 @@
 
 Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht ein spezielles Instrument zur Verfügung, eine Testgruppe während der Testdurchführung zu beobachten und die Teilnehmer ggf. im Test zu navigieren.
 
-1. Notieren Sie sich aus der oberen Navigationsleiste die Nummer der aktuellen Aufgabe, die zum Abbruch geführt hat (z. B. Aufgabe 3, siehe @fig-trouble-problem), und den Schülercode (z. B. `1abc`) der Testperson. 
-2. Falls noch nicht bei der Vorbereitung geschehen: Melden Sie sich als Testleitung mit den entsprechenden Zugangsdaten im Testcenter an. Starten Sie den Gruppenmonitor (Schaltfläche unter dem Punkt Test-Gruppen Überwachung).
+1. Notieren Sie sich aus der oberen Navigationsleiste die Nummer der aktuellen Aufgabe, die zum Abbruch geführt hat (z. B. Aufgabe 3, siehe @fig-trouble-problem), und den Schülercode (z. B. `1abc`) der Testperson.
 
 ![Beispiel: Person `1abc` kann Aufgabe 3 nicht bearbeiten](figures/trouble-problem.png){#fig-trouble-problem}
 
+
+2. Falls noch nicht bei der Vorbereitung geschehen: Melden Sie sich als Testleitung mit den entsprechenden Zugangsdaten im Testcenter an. Starten Sie den Gruppenmonitor (Schaltfläche unter dem Punkt Test-Gruppen Überwachung).
 3. Testnavigation:
-  a. Suchen Sie in der Spalte „Teilnehmer“ die Testperson (1abc) sowie den Teil, den sie gerade bearbeitet (@fig-solution-1-2).
-  b. Klicken Sie auf den hellgrün gefärbten Block, in dem sich die Testperson gerade befindet (@fig-solution-3)
-  c. Betätigen Sie die Schaltfläche „Springe zu Block“ (@fig-solution-4). Die Person wird somit wieder an den Anfang des Blocks geleitet.
-  d. Wechseln Sie zum Gerät der Testperson. Überspringen Sie die defekte Aufgabe, indem Sie in der oberen Navigationsleiste direkt (nicht über die Pfeiltasten!) die nachfolgende Aufgabe auswählen (hier im Beispiel Aufgabe 4, siehe @fig-solution-4).
-    - **Ausnahme:** Liegen keine weiteren Aufgaben nach der defekten Aufgabe vor, entfällt dieser Schritt d. Die Testperson wurde auf den Anfang des Blocks zurückgesetzt und hat die Möglichkeit, die bisher bearbeiteten Aufgaben noch einmal zu kontrollieren. Nach Ablauf der Zeit wird die Testperson automatisch in den nächsten Abschnitt weitergeleitet.
+    a. Suchen Sie in der Spalte „Teilnehmer“ die Testperson (1abc) sowie den Teil, den sie gerade bearbeitet (@fig-solution-1-2).
 
+    ![Auswählen der Person und Markieren des aktuellen Blocks](figures/trouble-solution-1-2.png){#fig-solution-1-2}
 
+    b. Klicken Sie auf den hellgrün gefärbten Block, in dem sich die Testperson gerade befindet (@fig-solution-1-2)
+    c. Betätigen Sie die Schaltfläche „Springe zu Block“ (@fig-solution-3). Die Person wird somit wieder an den Anfang des Blocks geleitet.
 
+    ![Betätigen der Schaltfläche](figures/trouble-solution-3.png){#fig-solution-3}
 
+    d. Wechseln Sie zum Gerät der Testperson. Überspringen Sie die defekte Aufgabe, indem Sie in der oberen Navigationsleiste direkt (nicht über die Pfeiltasten!) die nachfolgende Aufgabe auswählen (hier im Beispiel Aufgabe 4, siehe @fig-solution-4).
+       - **Ausnahme:** Liegen keine weiteren Aufgaben nach der defekten Aufgabe vor, entfällt der Schritt d. Die Testperson wurde auf den Anfang des Blocks zurückgesetzt und hat die Möglichkeit, die bisher bearbeiteten Aufgaben noch einmal zu kontrollieren. Nach Ablauf der Zeit wird die Testperson automatisch in den nächsten Abschnitt weitergeleitet.
 
-1.  **Fall 1:** Sofern noch weitere außer der betreffenden Aufgabe (z. B. Aufgabe 2 und/oder Aufgabe 4) vorliegen:
-  - **Schritt 1:** Suchen Sie die Person (`1abc`) und den Teil (im Beispiel: *Teil 1*), den sie gerade bearbeitet, in der Testleitungskonsole am vorbereiteten Ersatzgerät (siehe @fig-solution-1-2).
-  - **Schritt 2:** Klicken Sie auf denselben Block, auf dem sich die Person gerade befindet (hellgrün eingefärbt; siehe @fig-solution-1-2).
-  - **Schritt 3:** Betätigen Sie die Schaltfläche: *Springe zu Block* (siehe @fig-solution-3). Auf diese Weise wird der Block nicht verlassen, sondern die Person wird wieder an den Anfang des Blocks geleitet. Dies ist im Falle eines zeitbeschränkten Blocks zu empfehlen, da beim Verlassen eines solchen Blocks der Block gesperrt werden würde.
-  - **Schritt 4a:** Die Person wurde nun wieder an den Anfang des Blocks zurückgeleitet (siehe @fig-solution-4).
-  - **Schritt 4b:** Nun kann am Gerät der Testperson über die obere Navigationsleiste die Aufgabe übersprungen werden, indem man direkt (nicht über die Pfeiltasten) auf die nächste Aufgabe navigiert, indem man auf das betreffende Feld drückt (z. B. dann Aufgabe 4, siehe @fig-solution-4). Liegen keine weiteren Aufgaben nach der betreffenden Aufgabe vor, bitten Sie die Person, ihre Eingaben in diesen Aufgaben zu kontrollieren - der Abschnitt des Tests kann leider nicht fortgeführt werden, aber beim nächsten Abschnitt geht es automatisch nach Ablauf der Zeit weiter.
-
-![Auswählen der Person und markieren des aktuellen Blocks](figures/trouble-solution-1-2.png){#fig-solution-1-2}
-
-![Betätigen der Schaltfläche](figures/trouble-solution-3.png){#fig-solution-3}
-
-![Erfolgreiches Zurücksetzen in der Testleitungskonsole (4a) und Weiternavigation (4b) am Schülergerät](figures/trouble-solution-4.png){#fig-solution-4}
-
-- **Fall 2:** Sofern keine weitere Aufgaben außer die betreffende Aufgabe in dem Abschnitt (z. B. nur Aufgabe 1) vorliegen, können Sie den Ablauf von **Fall 1** ebenfalls durchführen. 
-  - Dass die Ladeprobleme im zweiten Anlauf behoben sind, ist möglich, aber leider nicht garantiert.
-  - Sollten sich die Probleme halten, bitten Sie die Testperson um Geduld; die Testung kann leider erst im nächsten Abschnitt fortgesetzt werden (der Abschnitt sollte, wie gewohnt, nach Ablauf der vorgesehenen Zeit automatisch beendet werden).
-- Vermerken Sie die Probleme bitte unter Angabe der Schüler-ID unter Punkt 3.3 im Sitzungsprotokoll.
+    ![Erfolgreiches Zurücksetzen in der Testleitungskonsole (4a) und Weiternavigation (4b) am Schülergerät](figures/trouble-solution-4.png){#fig-solution-4}

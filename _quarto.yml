@@ -13,7 +13,7 @@ website:
         text: Home
       - href: monitor.qmd
         text: Testleitungskonsole
-      - about.qmd
+      # - about.qmd
   search:
     location: navbar
     type: textbox
