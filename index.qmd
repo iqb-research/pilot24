@@ -66,7 +66,7 @@ Wenn die Aufgabe gar nicht bearbeitbar sein sollte, soll die Testperson diese Au
 ::: {.callout collapse="true"}
 ### Problem: Eine Audio- oder eine Video-Datei lädt nicht.
 
-![Video lädt trotz Anklickens des Play-Buttons](figures/ggb-load.jpg)
+![Video lädt trotz Anklickens des Play-Buttons nicht](figures/video-load.jpg)
 
 - Wenn es sich um kein "Pflichtmedium" handelt (d. h. wenn man trotzdem zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): Lassen Sie die Teilaufgabe überspringen.
 - Wenn es sich um ein "Pflichtmedium" handelt (d. h. wenn man nicht zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): 
@@ -76,8 +76,7 @@ Wenn die Aufgabe gar nicht bearbeitbar sein sollte, soll die Testperson diese Au
 
 ![Einkürzen der Adresse auf https://iqb-testcenter2.de/](figures/browser-refresh.jpg){#fig-browser-refresh}
 
-
-  - **Lösung 3:** Nutzen Sie die [Testleitungskonsole](/monitor.qmd), um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe.
+  - **Lösung 3:** *Nur sofern es mehr als eine Aufgabe innerhalb des Abschnittes gab:* Nutzen Sie die [Testleitungskonsole](/monitor.qmd), um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe oder wählen Sie eine Aufgabe aus, die davor lag.
 
 <ul class="tags">
 <li>Audio</li>

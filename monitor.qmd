@@ -1,114 +1,24 @@
-## Testleitungskonsole
+## Aufgabe überspringen
 
-Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht ein spezielles Instrument zur Verfügung, eine Testgruppe während der Testdurchführung zu beobachten und die Teilnehmer ggf. im Test zu navigieren. Dieses Instrument trägt die Bezeichnung: **Gruppenmonitor** (@fig-monitor-overview). Der Gruppenmonitor ist ein Teil des Testcenters, es handelt sich hier also nicht um eine separate Anwendung. 
+Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht ein spezielles Instrument zur Verfügung, eine Testgruppe während der Testdurchführung zu beobachten und die Teilnehmer ggf. im Test zu navigieren.
 
-### Anmeldung
-
-Um den Gruppenmonitor zu starten, meldet sich die Testleitung mit entsprechenden Zugangsdaten am Testcenter an. Anschließend öffnet sich der Gruppenmonitor und zeigt unter dem Punkt Test-Gruppen Überwachung eine Schaltfläche, um den Gruppenmonitor zu starten. Außerdem findet sich eine Liste mit Schaltflächen aller für die Testgruppe verfügbaren Testhefte. 
-
-### Bedienung und Ansicht
-
-Der Gruppenmonitor ist in zwei Teile aufgeteilt, ein Menü auf der linken Seite und einen zentralen Teil.
-
-Im **linken Seitenmenü** erfolgt die Testnavigation. Im **zentralen Teil** sind Informationen zu den Testpersonen, zum Fortschritt der Testung und weitere Informationen zu finden. Außerdem ist oben rechts der Verbindungsstatus ersichtlich und es können, ebenfalls auf der rechten Seite, über das Zahnrad Einstellungen bzgl. der Ansicht vorgenommen werden.
-
-::: {.callout-note}
-Der Gruppenmonitor bietet verschiedene Ansichtsoptionen. Alle nachfolgenden Bilder werden mit den folgenden Ansichtsoptionen dargestellt: 
-
-- **Spalten:** Teil und Abschnitt
-- **Aktivität:** Nur Abschnitte
-
-Wird diese Anleitung parallel zu einem geöffneten Gruppenmonitor verwendet, setzen Sie zuvor die Ansichtoptionen entsprechend, sofern sie nicht bereits so eingerichtet sind (siehe @fig-monitor-overview).
-:::
-
-![Übersicht Gruppenmonitor und Ansichtsoptionen](figures/GM_Gesamtansicht.png){#fig-monitor-overview}
-
-#### Testnavigation (linkes Seitenmenü)
-
-Im linken Teil des Fensters, also im Seitenmenü, sind Schalter für die Navigation zu finden. Diese haben erst eine Funktion, wenn im mittleren Teil (Aktivitätsfenster) eine entsprechende Testperson angewählt wurde. Die Testperson muss online sein, also den Test gerade bearbeiten. Es ist möglich die Testperson zu einem anderen Block im Testheft oder zum Anfang des Testhefts zu navigieren (springen). 
-
-::: {.callout-warning}
-##### Achtung
-
-Zusätzlich bietet der Gruppenmonitor die Möglichkeit, den Test zu pausieren, den Test zu sperren und den Test zu beenden. Diese Funktionen werden weiter unten der Vollständigkeit halber auch beschrieben, jedoch sollten Sie in der Erhebung davon keinen Gebrauch machen!
-:::
-
-Ganz oben ist ein Schalter mit der Bezeichnung: **Alle Logins gleichzeitig steuern** zu sehen. Diese Funktion steht für diese Erhebung nicht zur Verüfung, da alle in der Gruppe verwendeten Testhefte eine unterschiedliche Struktur aufweisen. Eine gemeinsame Steuerung ist also nicht möglich.
-
-#### Systeminformationen und Einstellungen (rechts)
-
-Oben rechts ist in Form eines kleinen Symbols der Verbindungsstatus des Gruppenmonitors zu sehen. Bei einer fehlerfreien Verbindung sollte das Symbol grün sein und es sollte "LIVE" darin stehen.
-
-Ebenfalls oben rechts ist eine Einstellungs-Schaltfläche zu sehen (kleines Zahnrad-Symbol). Mit Hilfe dieser kann die Ansicht (mehr oder weniger Informationen anzeigen) für das zentrale Fenster, also das Aktivitätsfenster, angepasst werden.
-
-#### Aktivitätsfenster (zentraler Teil)
-
-Im zentralen Aktivitätsfenster (@fig-monitor-activity) ist eine Liste aller in dieser Gruppe hinterlegten Personen zu sehen. Außerdem sind die Struktur der Testhefte, der Fortschritt der Testung und weitere hilfreiche Informationen in Spalten sortiert zu sehen.
-
-![Aktivitätsfenster](figures/GM_Personenliste_Testhefte.png){#fig-monitor-activity}
-
-Welche Informationen den einzelnen Spalten dieser Liste zu entnehmen sind und welche Bedeutung diese haben, wird nachfolgend von links nach rechts beschrieben:
-
-- **Spalte „Personenstatus“**: Hier wird der Status der Testperson angezeigt. Alle möglichen Status sind in @fig-monitor-status zusammengefasst.
-
-![Überblick zu den Status im Testcenter](figures/GM_Status_Overview_2.png){#fig-monitor-status}
-
-- **Spalte: „Teilnehmer“**: Es ist in @fig-monitor-activity eine längere Kennung zu sehen, die sich wie folgt zusammensetzt:
-
-  - Benutzername der Anmeldung, in diesem Fall: `iea-testtaker-bista2217` (in der Erhebung dann der 8-stellige Anmeldename der Testgruppe)
-  - der zur Anmeldung eingegebene Code, in diesem Fall: `abc1`, `abc2` usw.
-
-- **Spalte: „Teil“**: Hier sind die Testhefte zu sehen, die einem Zugangscode zugeordnet sind. Bspw. sind dem Code: `abc1` drei Testhefte zugeordnet, nämlich: *Anleitung*, *Teil 1*, *Teil 2* und *Teil 3*.
-- **Spalte: „Abschnitt“**: Ist der Test gestartet wird hier der Abschnitt innerhalb eines Blocks angezeigt.
-- **Spalte: „Aktivität“**: Es ist die Testheftstruktur zu sehen und an welcher Stelle sich die Testperson befindet. Sind Blöcke im Testheft vorhanden, wird die Anzahl der enthaltenen Aufgaben im Block angezeigt. Zu jedem Block in einem Testheft werden gegebene Beschränkungen angezeigt. Vor den jeweiligen beschränkten Blöcken ist dann bspw. eine kleine Uhr und ein Schlosssymbol zu sehen. Das Schlosssymbol öffnet sich, wenn das richtige Kennwort für den Block eingegeben wurde. Ist die vorgeschriebene Zeit für den Block abgelaufen, ist die Uhr durchgestrichen dargestellt. Zusätzlich wird bei zeitbeschränkten Blöcken die verbleibende Zeit vor den Blöcken dargestellt. Wie im Bild zu sehen ist, sind die Zeilen der Anmeldungen farblich gekennzeichnet. Die farbliche Kennzeichnung zeigt auf, welche Testhefte eine ähnliche Struktur aufweisen und gemeinsam gesteuert werden könnten.
-
-### Testnavigation (Steuerung)
-
-Für die Erprobungsstudie ist nur die Schaltfläche *Springe zu* im Fall von Problemen (siehe Troubleshooting) relevant.
-
-#### Springe zu Block
-
-Besteht ein Testheft aus mehreren Blöcken, kann mittels Gruppenmonitor eine Testpersonen zu einem bestimmten Block navigiert werden. Hierfür wird die Person markiert und anschließend wird der Block des Testheftes markiert zu dem gesprungen werden soll. Um einen Block zu markieren, klicken Sie einfach einmal auf diesen Block in der dargestellten Testheftstruktur. Nachfolgend wird der zweite Block der Anmeldung: `abc2` des Testheftes: *Teil 1* markiert (@fig-monitor-marker).
-
-![Block markieren](figures/GM_Block_markieren.png){#fig-monitor-marker}
-
-Wie zu sehen ist, wird bei erfolgreicher Markierung der Block entsprechend gekennzeichnet. Nun wird der Schalter: *Springe zu* betätigt. Die gewählte Person wird nun in den zweiten Block navigiert.
-
-::: {.callout-important}
-Navigiert die Testleitung eine Person aus einem zeitbeschränkten Block, wird dieser Block gesperrt und die Person kann nicht mehr darauf zugreifen, auch wenn die Bearbeitung noch nicht abgeschlossen war. Das Springen in andere Blöcke sollte also immer gut überlegt sein.
-:::
-
-::: {.callout-warning}
-#### Nicht zu verwendende Navigationsoptionen
-
-Die nachfolgenden Navigationsoptionen sollen Sie im Rahmen der Erprobungsstudie **nicht** verwenden. Dennoch werden sie an dieser Stelle kurz beschrieben.
-
-#### Pausieren
-
-Markieren Sie im Aktivitätsfenster die gewünschte Person und betätigen Sie anschließend die Schaltfläche: **Pause**. Ist der Test erfolgreich pausiert, erscheint das entsprechende Statussymbol für Pause bei der Person. Außerdem erscheint im Browser der Person eine entsprechende Meldung, dass der Test pausiert wurde. Soll die Pausierung aufgehoben werden, ist erneut die entsprechende Person zu markieren und anschließend ist die Schaltfläche: **Weiter** zu betätigen. Der Test wird dann fortgeführt.
-
-#### Test beenden
-
-Der Test kann für Personen gesperrt werden. Hierfür ist der Schalter: **Test beenden** zu verwenden. Die Testperson erhält dann die Info, dass der Test gesperrt ist und die Testung nicht fortgeführt werden kann. (Davon sollten Sie im Rahmen der Erprobungsstudie nicht Gebrauch machen müssen.)
-
-#### Test entsperren
-
-Wurde die Testung für eine Person beendet, ist der Test für diese Person gesperrt. Diese Sperrung kann mit dem Schalter: **Test entsperren** wieder aufgehoben werden. (Davon sollten Sie im Rahmen der Erprobungsstudie nicht Gebrauch machen müssen.)
-:::
-
-### Troubleshooting
-
-#### Testperson kann die Aufgabe nicht bearbeiten
-
-- **Fehler:** Die Testperson kann eine Aufgabe nicht bearbeiten, weil die Inhalte der Aufgabe nicht dargestellt werden. Da die Navigation im Testheft zu anderen Aufgaben nur möglich ist nachdem eine Aufgabe vollständig beantwortet wurde, kann die Testperson nicht mit der Testung fortfahren.
-
-- **Ursache:** Die Aufgabeninhalte (insbesondere eine Video- oder Audiodatei) können eventuell nicht vollständig geladen werden.
-
-- Notieren Sie sich aus der oberen Navigationsleiste die Nummer der aktuellen Aufgabe, die zum Abbruch geführt hat (z. B. Aufgabe 3, siehe @fig-trouble-problem), und den Schülercode (z. B. `1abc`) der Testperson. 
+1. Notieren Sie sich aus der oberen Navigationsleiste die Nummer der aktuellen Aufgabe, die zum Abbruch geführt hat (z. B. Aufgabe 3, siehe @fig-trouble-problem), und den Schülercode (z. B. `1abc`) der Testperson. 
+2. Falls noch nicht bei der Vorbereitung geschehen: Melden Sie sich als Testleitung mit den entsprechenden Zugangsdaten im Testcenter an. Starten Sie den Gruppenmonitor (Schaltfläche unter dem Punkt Test-Gruppen Überwachung).
 
 ![Beispiel: Person `1abc` kann Aufgabe 3 nicht bearbeiten](figures/trouble-problem.png){#fig-trouble-problem}
 
-- **Fall 1:** Sofern noch weitere außer der betreffenden Aufgabe (z. B. Aufgabe 2 und/oder Aufgabe 4) vorliegen:
+3. Testnavigation:
+  a. Suchen Sie in der Spalte „Teilnehmer“ die Testperson (1abc) sowie den Teil, den sie gerade bearbeitet (@fig-solution-1-2).
+  b. Klicken Sie auf den hellgrün gefärbten Block, in dem sich die Testperson gerade befindet (@fig-solution-3)
+  c. Betätigen Sie die Schaltfläche „Springe zu Block“ (@fig-solution-4). Die Person wird somit wieder an den Anfang des Blocks geleitet.
+  d. Wechseln Sie zum Gerät der Testperson. Überspringen Sie die defekte Aufgabe, indem Sie in der oberen Navigationsleiste direkt (nicht über die Pfeiltasten!) die nachfolgende Aufgabe auswählen (hier im Beispiel Aufgabe 4, siehe @fig-solution-4).
+    - **Ausnahme:** Liegen keine weiteren Aufgaben nach der defekten Aufgabe vor, entfällt dieser Schritt d. Die Testperson wurde auf den Anfang des Blocks zurückgesetzt und hat die Möglichkeit, die bisher bearbeiteten Aufgaben noch einmal zu kontrollieren. Nach Ablauf der Zeit wird die Testperson automatisch in den nächsten Abschnitt weitergeleitet.
+
+
+
+
+
+1.  **Fall 1:** Sofern noch weitere außer der betreffenden Aufgabe (z. B. Aufgabe 2 und/oder Aufgabe 4) vorliegen:
   - **Schritt 1:** Suchen Sie die Person (`1abc`) und den Teil (im Beispiel: *Teil 1*), den sie gerade bearbeitet, in der Testleitungskonsole am vorbereiteten Ersatzgerät (siehe @fig-solution-1-2).
   - **Schritt 2:** Klicken Sie auf denselben Block, auf dem sich die Person gerade befindet (hellgrün eingefärbt; siehe @fig-solution-1-2).
   - **Schritt 3:** Betätigen Sie die Schaltfläche: *Springe zu Block* (siehe @fig-solution-3). Auf diese Weise wird der Block nicht verlassen, sondern die Person wird wieder an den Anfang des Blocks geleitet. Dies ist im Falle eines zeitbeschränkten Blocks zu empfehlen, da beim Verlassen eines solchen Blocks der Block gesperrt werden würde.
