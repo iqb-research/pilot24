@@ -299,7 +299,7 @@ Abbildung&nbsp;1: Einkürzen der Adresse auf https://iqb-testcenter2.de/
 </figure>
 </div>
 <ul>
-<li><strong>Lösung 3:</strong> <em>Nur sofern es mehr als eine Aufgabe innerhalb des Abschnittes gab:</em> Nutzen Sie die <a href="./monitor.html">Testleitungskonsole</a>, um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe oder wählen Sie eine Aufgabe aus, die davor lag.</li>
+<li><strong>Lösung 3:</strong> <em>Nur sofern es mehr als eine Aufgabe innerhalb des Abschnittes gab:</em> Nutzen Sie die <a href="#sec-jump">Testleitungskonsole</a>, um die Testperson zum Anfang des Abschnitts springen zu lassen. Überspringen Sie über die Navigationsleiste diese Teilaufgabe oder wählen Sie eine Aufgabe aus, die davor lag.</li>
 </ul>
 <ul class="tags">
 <li>
@@ -753,7 +753,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -1,6 +1,8 @@
-## Aufgabe überspringen
+# Testleitungskonsole
 
-Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht ein spezielles Instrument zur Verfügung, eine Testgruppe während der Testdurchführung zu beobachten und die Teilnehmer ggf. im Test zu navigieren.
+Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht mit der Testleitungskonsole ein spezielles Instrument zur Verfügung, mit der sie eine Testgruppe während der Testdurchführung beobachten und die Teilnehmenden ggf. im Test navigieren kann.
+
+## Aufgabe überspringen {#sec-jump}
 
 1. Notieren Sie sich aus der oberen Navigationsleiste die Nummer der aktuellen Aufgabe, die zum Abbruch geführt hat (z. B. Aufgabe 3, siehe @fig-trouble-problem), und den Schülercode (z. B. `1abc`) der Testperson.
 
@@ -9,7 +11,7 @@ Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht
 
 2. Falls noch nicht bei der Vorbereitung geschehen: Melden Sie sich als Testleitung mit den entsprechenden Zugangsdaten im Testcenter an. Starten Sie den Gruppenmonitor (Schaltfläche unter dem Punkt Test-Gruppen Überwachung).
 3. Testnavigation:
-    a. Suchen Sie in der Spalte „Teilnehmer“ die Testperson (1abc) sowie den Teil, den sie gerade bearbeitet (@fig-solution-1-2).
+    a. Suchen Sie in der Spalte „Teilnehmer“ die Testperson (`1abc`) sowie den Teil, den sie gerade bearbeitet (@fig-solution-1-2).
 
     ![Auswählen der Person und Markieren des aktuellen Blocks](figures/trouble-solution-1-2.png){#fig-solution-1-2}
 
@@ -21,4 +23,4 @@ Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht
     d. Wechseln Sie zum Gerät der Testperson. Überspringen Sie die defekte Aufgabe, indem Sie in der oberen Navigationsleiste direkt (nicht über die Pfeiltasten!) die nachfolgende Aufgabe auswählen (hier im Beispiel Aufgabe 4, siehe @fig-solution-4).
        - **Ausnahme:** Liegen keine weiteren Aufgaben nach der defekten Aufgabe vor, entfällt der Schritt d. Die Testperson wurde auf den Anfang des Blocks zurückgesetzt und hat die Möglichkeit, die bisher bearbeiteten Aufgaben noch einmal zu kontrollieren. Nach Ablauf der Zeit wird die Testperson automatisch in den nächsten Abschnitt weitergeleitet.
 
-    ![Erfolgreiches Zurücksetzen in der Testleitungskonsole (4a) und Weiternavigation (4b) am Schülergerät](figures/trouble-solution-4.png){#fig-solution-4}
+    ![Navigation am Schülergerät](figures/trouble-solution-4.png){#fig-solution-4}
