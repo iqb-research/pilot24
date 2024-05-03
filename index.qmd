@@ -16,6 +16,8 @@ Die Punkte sind chronologisch und thematisch gegliedert.
 
 #### GeoGebra / geometrisches Zeichnen
 
+Für das geometrische Zeichnen in der digitalen Testumgebung nutzen wir die Software GeoGebra.
+
 ::: {.callout collapse="true"}
 ### Das Testheft ist erfolgreich geladen, aber eine eingebettete GeoGebra-Datei wird nicht angezeigt.
 
@@ -46,6 +48,8 @@ Die Punkte sind chronologisch und thematisch gegliedert.
 
 #### Tastatur
 
+Auf Tablets blenden wir eine eigene Tastatur in den digitalen Testaufgaben ein.
+
 ::: {.callout collapse="true"}
 ### Bei einzelnen Aufgaben öffnet sich am Tablet keine Tastatur / ist keine schriftliche Eingabe möglich / überdeckt die Tastatur das Eingabefeld.
 
@@ -62,6 +66,8 @@ Wenn die Aufgabe gar nicht bearbeitbar sein sollte, soll die Testperson diese Au
 :::
 
 #### Audios und Videos
+
+Die digital dargebotenen Testaufgaben verwenden manchmal Audios und Videos. Einige davon müssen abgespielt werden ("Pflichtmedien") und andere nicht. Erst wenn alle Pflichtmedien abgespielt wurden, geht die Aufgabenbearbeitung weiter.
 
 ::: {.callout collapse="true"}
 ### Problem: Eine Audio- oder eine Video-Datei lädt nicht.
