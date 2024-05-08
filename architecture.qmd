@@ -1,0 +1,3 @@
+# Testaufbau
+
+Der Test gliedert sich in verschiedene Teile, die wiederum in Abschnitte untergliedert sind.

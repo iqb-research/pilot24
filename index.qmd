@@ -10,9 +10,48 @@ Die Punkte sind chronologisch und thematisch gegliedert.
 
 ## Trouble-Shooting
 
-<!-- ### Vorbereitung -->
+### Vorbereitung
+
+#### Anmeldung
+
+Für die Anmeldung gibt es für den ersten Schritt entweder den QR-Code oder man gibt im Testcenter einen 8-stelligen Anmeldenamen ohne Kennwort ein und wählt "Weiter" aus. Im zweiten Schritt ist ein 4-stelliger Schülercode einzugeben und ebenfalls mit "Weiter" zu bestätigen.
+
+::: {.callout collapse="true"}
+##### Der Schülercode wird nicht akzeptiert.
+
+- Prüfen Sie, ob die Testperson den Schülercode richtig eingegeben hat (beginnend mit einer Zahl und gefolgt von ausschließlich Kleinbuchstaben). Achten Sie darauf, dass wirklich "Weiter" und nicht "Neu anmelden" geklickt wird. Wer auf "Neu anmelden" klickt (was bei den ersten Testungen vereinzelt vorkam), muss noch einmal den Anmeldenamen der Testgruppe eingeben bzw. den QR-Code scannen.
+
+<ul class="tags">
+<li>Anmeldung</li>
+<li>Schülercode</li>
+</ul>
+:::
+
 
 ### Während der Erhebung
+
+#### Freigabewörter
+
+Alle Abschnitte eines Testteils sind mit Freigabewörtern gesperrt, die im Testleitungsskript genannt werden. Nur wenn das richtige Freigabewort eingegeben wurde, wird der entsprechende Abschnitt entsperrt.
+
+::: {.callout collapse="true"}
+##### Das Freigabewort wird nicht akzeptiert.
+
+<!-- ![Freigabewort wird nicht akzeptiert (Grund hier: Abschnitt wurde übersprungen)](figures/video-load.jpg) -->
+
+- Dieser Fehler trat bisher nur dann auf, wenn der falsche Abschnitt ausgewählt wurde. Prüfen Sie bitte unbedingt Folgendes:
+    - **Lösung 1:** Ist das Freigabewort richtig geschrieben? Groß- und Kleinschreibung sind dabei egal. Wenn das der Fall ist, fahren Sie mit **Lösung 2** fort.
+    - **Lösung 2:** Steht als Überschrift im Freigabefenster der richtige Abschnitt, der entsperrt werden soll?
+      - Wenn es sich laut Testleitungsskript um einen **20**- oder **10**-minütigen **Abschnitt mit Testaufgaben** handelt, ist dieser Abschnitt mit "Abschnitt 1", "Abschnitt 2" oder "Abschnitt 3" überschrieben. In der Navigationsleiste sollte der erste nicht ausgegraute Pfeil nach rechts (▶) hellgrün hinterlegt sein.
+      - Wenn es sich laut Testleitungsskript um einen **4**-minüten **Abschnitt mit Fragen** handelt, ist dieser Abschnitt mit "Abschnitt 1: Fragen" oder "Abschnitt 2: Fragen" (je nachdem, vor oder nach welchem Aufgabenabschnitt er platziert ist) überschrieben. In der Navigationsleiste sollte der erste nicht ausgegraute Punkt (•) hellgrün hinterlegt sein.
+      - Sollte nicht der richtige Abschnitt ausgewählt sein, navigieren Sie über die grünen Pfeiltasten in der Navigationsleiste oben nach links für vorhergehende (nicht ausgegraute) bzw. nach rechts für nachfolgende (nicht ausgegraute) Freigabeseiten.
+    - **Lösung 3:** Sollte **Lösung 2** nicht funktionieren, könnte noch der falsche Teil ausgewählt worden sein. Klicken Sie bitte auf das IQB-Logo. Wählen Sie anschließend erneut die Schaltfläche für den aktuellen Teil aus und prüfen Sie dann das Freigabewort für den betreffenden Abschnitt erneut. Prüfen Sie auch hier, ob der richtige Punkt auf der Navigationsleiste (entsprechend der **Lösung 2**) ausgewählt ist.
+
+<ul class="tags">
+<li>Navigation</li>
+<li>Freigabe</li>
+</ul>
+:::
 
 #### Audios und Videos
 
@@ -25,9 +64,8 @@ Die digital dargebotenen Testaufgaben verwenden manchmal Audios und Videos. Eini
 
 - Wenn es sich um kein "Pflichtmedium" handelt (d. h. wenn man trotzdem zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): Lassen Sie die Teilaufgabe überspringen.
 - Wenn es sich um ein "Pflichtmedium" handelt (d. h. wenn man nicht zur nächsten Teilaufgabe oder zur nächsten Aufgabe navigieren kann): 
-  - **Lösung 1:** Aktualisieren Sie die Seite über die Browserleiste bzw. über den Shortcut am PC: [Strg]{.key} + [R]{.key}. Prüfen Sie, ob das Medium nun abspielt. Wenn nicht, versuchen Sie Lösung 2.
-    - **Achtung:** Nicht über das IQB-Logo gehen, weil ansonsten der Block unwiderruflich gesperrt würde.
-  - **Lösung 2:** Kürzen Sie die Adressleiste auf https://iqb-testcenter2.de/ herunter (siehe @fig-browser-refresh) und laden Sie die Seite neu. Sie gelangen wieder auf die Seite mit der Auswahl der Testteile. Klicken Sie erneut auf die Schaltfläche für den entsprechenden Teil. Es sollte wieder dieselbe Aufgabe laden. Prüfen Sie, ob das Medium nun abspielt. Wenn nicht, versuchen Sie Lösung 3.
+  - **Lösung 1:** Kürzen Sie die Adressleiste auf https://iqb-testcenter2.de/ herunter (siehe @fig-browser-refresh) und laden Sie die Seite neu. Sie gelangen wieder auf die Seite mit der Auswahl der Testteile. Klicken Sie erneut auf die Schaltfläche für den entsprechenden Teil. Es sollte wieder dieselbe Aufgabe laden. Prüfen Sie, ob das Medium nun abspielt. Wenn nicht, versuchen Sie Lösung 3.
+    - **Achtung:** Nicht auf das IQB-Logo gehen, weil ansonsten der Block unwiderruflich gesperrt würde.
 
 ![Einkürzen der Adresse auf https://iqb-testcenter2.de/](figures/browser-refresh.jpg){#fig-browser-refresh}
 
@@ -48,6 +86,17 @@ Die digital dargebotenen Testaufgaben verwenden manchmal Audios und Videos. Eini
 <ul class="tags">
 <li>Audio</li>
 <li>Video</li>
+</ul>
+:::
+
+::: {.callout collapse="true"}
+##### Das Lückensatzdiktat (Papiertestteil in Deutsch) dauert scheinbar weniger als 10 Minuten.
+
+Das ist beabsichtigt: Nach dem letzten diktierten Satz wird die Testperson innerhalb des Audios aufgefordert, die verbleibende Zeit zu nutzen, um die geschriebenen Wörter zu kontrollieren. Die Zeit des Audios ist mit 9 min großzügig bemessen, um sicherzugehen, dass auch bei technischen Problemen oder späterem Beginn möglichst noch das gesamte Diktat angehört werden kann. Die Testpersonen müssten also korrigieren oder kurz warten, bis es weitergeht, wenn sie direkt starten konnten. Bitte fordern Sie die Testperson auf, das Ende des Audios abzuwarten. Die noch verbleibende Zeit wird am Endgerät angezeigt.
+
+<ul class="tags">
+<li>Papier</li>
+<li>Lückensätze</li>
 </ul>
 :::
 
