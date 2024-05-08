@@ -14,21 +14,6 @@ Die Punkte sind chronologisch und thematisch gegliedert.
 
 ### Während der Erhebung
 
-#### Navigation
-
-::: {.callout collapse="true"}
-##### Die Freigabewörter scheinen nicht zu stimmen.
-
-![Freigabewort wird nicht akzeptiert](figures/video-load.jpg)
-
-- **Lösung 1:** Sofern ein **anderer Browser** auf dem Gerät **verfügbar** ist, beenden Sie die aktuelle Sitzung auf dem Browser (einfaches Schließen) und wechseln Sie auf einen anderen Browser. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
-- **Lösung 2:** Sofern ein **anderes Endgerät verfügbar** ist (also ein Ersatzgerät), beenden Sie die aktuelle Sitzung auf dem aktuellen Endgerät (einfaches Schließen) und wechseln Sie auf das andere Endgerät. Führen Sie die Anmeldung der betroffenen Testperson erneut durch und laden Sie den Testteil neu, bei dem sich die Testperson gerade befand.
-
-<ul class="tags">
-<li>Navigation</li>
-</ul>
-:::
-
 #### Audios und Videos
 
 Die digital dargebotenen Testaufgaben verwenden manchmal Audios und Videos. Einige davon müssen abgespielt werden ("Pflichtmedien") und andere nicht. Erst wenn alle Pflichtmedien abgespielt wurden, geht die Aufgabenbearbeitung weiter.
