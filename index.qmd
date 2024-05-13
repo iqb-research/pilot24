@@ -37,7 +37,7 @@ Alle Abschnitte eines Testteils sind mit Freigabewörtern gesperrt, die im Testl
 ::: {.callout collapse="true"}
 ##### Das Freigabewort wird nicht akzeptiert.
 
-<!-- ![Freigabewort wird nicht akzeptiert (Grund hier: Abschnitt wurde übersprungen)](figures/video-load.jpg) -->
+![Typisches Szenario: Freigabewort für Abschnitt 1 würde hier nicht akzeptiert werden, da  Abschnitt 1 übersprungen wurde (rot umkreist), aber Abschnitt 2 bereits angezeigt wird (grün hinterlegt)](figures/password.png)
 
 - Dieser Fehler trat bisher nur dann auf, wenn der falsche Abschnitt ausgewählt wurde. Prüfen Sie bitte unbedingt Folgendes:
     - **Lösung 1:** Ist das Freigabewort richtig geschrieben? Groß- und Kleinschreibung sind dabei egal. Wenn das der Fall ist, fahren Sie mit **Lösung 2** fort.
